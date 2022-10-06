@@ -12,7 +12,7 @@ public class Q5 {
             }
         }
         
-        System.out.println(licensePlate);
+        System.out.println("A random vehicle plate number: " + (String) String.valueOf(licensePlate));
     }
 
     static char generateChar(){
