@@ -6,7 +6,9 @@ public class Q1 {
         System.out.print("Enter a character: ");
 
         char ch = sc.next().charAt(0);
-        
+
+        sc.close();
+
         if (!Character.isLetter(ch)) {
 
             System.out.println("Invalid input");
