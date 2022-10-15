@@ -10,7 +10,7 @@ public class Q2 {
         sc.close();
 
         if (plate.length() != 5) {
-            System.out.println(plate + " is a valid plate number");
+            System.out.println(plate + " is an invalid plate number");
         } else {
             if(isChar(plate.charAt(0)) && isChar(plate.charAt(1)) && plate.contains("-") && isNum(plate.charAt(3)) && isNum(plate.charAt(4))){
                 System.out.println(plate + " is a valid plate number");
