@@ -1,11 +1,13 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class Q1{
+public class Q1 {
     public static void main(String[] args) throws Exception {
         // Promts the user to input as many numbers as they want until 0 is enetered.
-        // Then it prints the total number of positive, negative, even and odd integers that have been entered
-        // Prints the sum and average of the input values (average should be rounded to 2 decimal places)
+        // Then it prints the total number of positive, negative, even and odd integers
+        // that have been entered
+        // Prints the sum and average of the input values (average should be rounded to
+        // 2 decimal places)
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter the first integer (0 to terminate)");
@@ -16,7 +18,7 @@ public class Q1{
             System.out.println("No numbers are entered except 0");
 
         } else {
-            while(true){
+            while (true) {
                 System.out.println("Enter an integer (0 to terminate):");
                 int num = sc.nextInt();
 
@@ -36,7 +38,7 @@ public class Q1{
             int odd = 0;
             int total = 0;
 
-            for(int i = 0; i < numList.size(); i++){
+            for (int i = 0; i < numList.size(); i++) {
                 int num = numList.get(i);
                 if (num > 0) {
                     positive++;
@@ -44,7 +46,7 @@ public class Q1{
                     negative++;
                 }
 
-                if(num % 2 == 0){
+                if (num % 2 == 0) {
                     even++;
                 } else {
                     odd++;
