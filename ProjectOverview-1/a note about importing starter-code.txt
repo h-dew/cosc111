@@ -1,0 +1,1 @@
+The first step you need to do before importing the files into Eclipse is to unzip the starter-code file (e.g. P1.zip). Then, follow the steps shown in the video 111_HowToImportStarterCode.mp4. 
