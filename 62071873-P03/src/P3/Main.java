@@ -9,7 +9,7 @@ package P3;
  *  - We have exactly 3 questions, one question for each player
  *  - User can play many rounds of the game. 
  * 
- * Focus: 
+ * Focus: `
  * 	- 1-D arrays
  *  - for loops
  * 
